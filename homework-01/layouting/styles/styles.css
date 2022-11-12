@@ -78,20 +78,26 @@ main {
 	margin-top: 20px;
 }
 
-.left-lower-box {
-	width: 48%;
+.lower-boxes-wrapper {
+	width: 100%;
 	height: 70px;
-	background-color: blueviolet;
-	float: left;
+	display: flex;
+	column-gap:	35px;
 	margin-top: 20px;
 }
 
+.left-lower-box {
+	width: 50%;
+	height: inherit;
+	background-color: blueviolet;
+	flex: auto;
+}
+
 .right-lower-box {
-	width: 48%;
-	height: 70px;
+	width: 50%;
+	height: inherit;
 	background-color: blue;
-	float: right;
-	margin-top: 20px;
+	flex: auto;
 }
 
 /*--------Horizontal Layout---------*/
@@ -172,4 +178,41 @@ main {
 	height: 50px;
 	background-color: blue;
 	margin-top: 20px;
+}
+
+/*--------Full Page Layout---------*/
+
+.full-page-header {
+	width: 100%;
+	height: 80px;
+	background-color: darkblue;
+}
+
+.full-page-column-wrapper {
+	width: 100%;
+	height: 400px;
+	display: flex;
+	column-gap: 20px;
+	margin-top: 10px;
+}
+
+.full-page-left-column {
+	width: 20%;
+	height: inherit;
+	background-color: purple;
+	flex: auto;
+}
+
+.full-page-right-column {
+	width: 80%;
+	height: inherit;
+	background-color: lightgreen;
+	flex: auto;
+}
+
+.full-page-footer {
+	width: 100%;
+	height: 80px;
+	margin-top: 10px;
+	background-color: blue;
 }
