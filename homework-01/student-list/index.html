@@ -11,7 +11,73 @@
 
 <body>
   <div id="main">
-    <!-- Add your HTML here -->
+    <header>
+      <div class="navigation-wrapper">
+        <h2>Списък от студенти</h2>
+        <ul>
+          <li>Помощ</li>
+          <li>Начало</li>
+          <li>Изход</li>
+        </ul>
+      </div>
+
+      <form class="add-student-form">
+        <input type="text" placeholder="Име на студент"><button>Добави</button>
+      </form>
+    </header>
+
+    <section class="students-section">
+      <table class="students-table" CELLPADDING=0 BORDER="0">
+        <colgroup>
+          <col class="name-column">
+          <col class="grade-column">
+        </colgroup>
+
+        <tr>
+          <td class="student-row">Иван</td>
+          <td>
+            <input type="number" min="2" max="6" step="1" placeholder="Оценка" class="grade-input">
+          </td>
+        </tr>
+        <tr>
+          <td class="student-row">Елена</td>
+          <td>
+            <input type="number" min="2" max="6" step="1" placeholder="Оценка" class="grade-input">
+          </td>
+        </tr>
+        <tr>
+          <td class="student-row">Петър</td>
+          <td>
+            <input type="number" min="2" max="6" step="1" placeholder="Оценка" class="grade-input">
+          </td>
+        </tr>
+        <tr>
+          <td class="student-row">Жоро</td>
+          <td>
+            <input type="number" min="2" max="6" step="1" placeholder="Оценка" class="grade-input">
+          </td>
+        </tr>
+        <tr>
+          <td class="student-row">Ния</td>
+          <td>
+            <input type="number" min="2" max="6" step="1" placeholder="Оценка" class="grade-input">
+          </td>
+        </tr>
+        <tr>
+          <td class="student-row">Цани</td>
+          <td>
+            <input type="number" min="2" max="6" step="1" placeholder="Оценка" class="grade-input">
+          </td>
+        </tr>
+        <tr>
+          <td class="student-row">Мартин</td>
+          <td>
+            <input type="number" min="2" max="6" step="1" placeholder="Оценка" class="grade-input">
+          </td>
+        </tr>
+      </table>
+    </section>
+
   </div>
 </body>
 

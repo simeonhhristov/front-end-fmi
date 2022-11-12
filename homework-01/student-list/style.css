@@ -13,3 +13,122 @@ body, html {
 }
 
 /* Add your CSS here */
+button {
+  border: none;
+  margin: 0;
+}
+
+input {
+  border: none;
+  margin: 0;
+}
+
+ul {
+  cursor: default;
+}
+
+#main > header {
+  width: 100%;
+  background: -moz-linear-gradient(top, green, white);
+  padding: 20px 0;
+}
+
+.navigation-wrapper {
+  display: flex;
+}
+
+.navigation-wrapper > h2 {
+  width: 70%;
+  text-align: center;
+  color: white;
+}
+
+.navigation-wrapper > ul {
+  width: 30%;
+  text-align: center;
+  cursor: default;
+}
+
+.navigation-wrapper > ul > li {
+  display: inline;
+  padding: 10px 15px;
+  color: white;
+  margin: 2px;
+  border: 2px dotted blue;
+  cursor: pointer;
+}
+
+.add-student-form {
+  width: 100%;
+  text-align: center;
+}
+
+.add-student-form > input {
+  width: 70%;
+  background-color: white;
+  padding: 10px 5px;
+}
+
+.add-student-form > button {
+  width: 25%;
+  color: white;
+  background-color: purple;
+  border: 1px dashed white;
+  padding: 10px 0;
+  cursor: pointer;
+  transition: .2s ease-in-out;
+}
+
+.add-student-form > button:hover {
+  background-color: peru;
+
+}
+
+.students-section {
+  width: 100%;
+  background-color: red;
+}
+
+.students-section > .students-table {
+  width: 100%;
+  border-collapse: collapse;
+  color: #fff;
+}
+
+.name-column {
+  width: 90%;
+}
+
+.grade-column {
+  width: 10%;
+}
+.students-section .students-table tr {
+  transition: .2s ease-in-out;
+}
+
+.students-section .students-table tr:nth-child(odd) {
+  background-color: pink;
+}
+
+.students-section .students-table tr:nth-child(even) {
+  background-color: skyblue;
+}
+
+.students-section .students-table tr:hover {
+  background-color: white;
+  color: black;
+}
+
+.students-section .students-table tr:active {
+  background-color: green;
+  color: white;
+}
+.student-row {
+  padding: 10px;
+  padding-left: 40px;
+}
+
+.grade-input {
+  padding: 10px;
+  margin: 5px;
+}
