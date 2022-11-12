@@ -93,3 +93,36 @@ main {
 	float: right;
 	margin-top: 20px;
 }
+
+/*--------Horizontal Layout---------*/
+
+
+.horizontal-header {
+	width: 100%;
+	height: 50px;
+	background-color: darkblue;
+	margin-bottom: 20px;
+}
+
+.left-middle-box {
+	width: 34%;
+	height: 450px;
+	background-color: blueviolet;
+	float: left;
+	margin-bottom: 20px;
+}
+
+.right-middle-box {
+	width: 63%;
+	height: 450px;
+	background-color: lightgreen;
+	float: right;
+	margin-bottom: 20px;
+}
+
+.horizontal-footer {
+	width: 100%;
+	height: 50px;
+	background-color: blue;
+	clear: both;
+}
