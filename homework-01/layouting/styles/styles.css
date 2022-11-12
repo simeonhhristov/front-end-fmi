@@ -96,7 +96,6 @@ main {
 
 /*--------Horizontal Layout---------*/
 
-
 .horizontal-header {
 	width: 100%;
 	height: 50px;
@@ -104,25 +103,73 @@ main {
 	margin-bottom: 20px;
 }
 
-.left-middle-box {
-	width: 34%;
+.horizontal-column-wrapper {
+	width: 100%;
+	margin-top: 20px;
 	height: 450px;
-	background-color: blueviolet;
-	float: left;
-	margin-bottom: 20px;
+	display: flex;
+	column-gap: 20px;
 }
 
-.right-middle-box {
-	width: 63%;
-	height: 450px;
+.left-section {
+	width: 35%;
+	height: inherit;
+	background-color: blueviolet;
+}
+
+.right-section {
+	width: 65%;
+	height: inherit;
 	background-color: lightgreen;
-	float: right;
-	margin-bottom: 20px;
 }
 
 .horizontal-footer {
 	width: 100%;
 	height: 50px;
 	background-color: blue;
-	clear: both;
+	margin-top:20px;
+}
+
+/*--------Three Column Layout---------*/
+
+.three-column-header {
+	width: 100%;
+	height: 50px;
+	background-color: darkblue;
+}
+
+.column-wrapper {
+	margin-top: 20px;
+	width: 100%;
+	height: 450px;
+	display: flex;
+	column-gap: 20px;
+}
+
+.left-column {
+	width: 25%;
+	height: inherit;
+	background-color: purple;
+	flex: auto;
+}
+
+.center-column {
+	width: 50%;
+	height: inherit;
+	background-color: lightgreen;
+	flex: auto;
+}
+
+.right-column {
+	width: 25%;
+	height: inherit;
+	background-color: red;
+	flex: auto;
+}
+
+.three-colum-footer {
+	width: 100%;
+	height: 50px;
+	background-color: blue;
+	margin-top: 20px;
 }
